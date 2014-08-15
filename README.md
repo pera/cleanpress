@@ -1,23 +1,13 @@
-CleanPress
-==========
-CleanPress is an elegant, clean & white minimal and responsive theme for [Octopress](http://octopress.org) and originally a fork of the OctoPress Slash Theme.
-
-Check out the theme in action [here](http://macjasp.github.io).
+This is a fork of [CleanPress](http://macjasp.github.io) that looks more like the original Slash theme.
 
 
 Install
 -------
     $ cd octopress
-    $ git clone git://github.com/macjasp/cleanpress.git .themes/cleanpress
+    $ git clone git://github.com/pera/cleanpress.git .themes/cleanpress
     $ rake install['cleanpress']
     $ rake generate
 
-
-Font
----------------------
-The font is currently using Proxima Nova from Typekit, if you don't set this up the fall back is Helvetica Neue.
-
-If you spot any errors then let me know, alternatively take it on and make it better!
 
 License
 -------
