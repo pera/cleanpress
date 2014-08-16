@@ -1,10 +1,10 @@
-This is a fork of [CleanPress](http://macjasp.github.io) that looks more like the original Slash theme.
+This is a fork of [CleanPress](http://macjasp.github.io), more clean, without scripts, without remote content.
 
 
 Install
 -------
     $ cd octopress
-    $ git clone https://github.com/pera/cleanpress.git .themes/cleanpress
+    $ git clone git://github.com/pera/cleanpress.git .themes/cleanpress
     $ rake install['cleanpress']
     $ rake generate
 
