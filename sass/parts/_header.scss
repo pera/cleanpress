@@ -1,13 +1,13 @@
 $header-height: 30px;
 
 #header{
-	margin-bottom:20px;
+	line-height: normal;
+	margin-top: 15px;
+	margin-bottom:50px;
 	@media screen and (max-width: 1040px){
 		height: auto;
 		position: relative;
 		padding-bottom: 10px;
-	}
-	@media screen and (max-width: 600px){
 	}
 	a{
 		color: $color-gray01;
@@ -18,14 +18,10 @@ $header-height: 30px;
 		}
 	}
 	h1{
-		margin-top:15px;
-		text-align:center;
 		font-weight: bold;
-		font-size: 48px;
-		@media screen and (max-width: 1040px){
-			float: none;
-		}
-		}
+		font-size: 20px;
+		display: inline-block;
+	}
 	h4{
 		margin-top:10px;
 		text-align:center;
@@ -37,22 +33,17 @@ $header-height: 30px;
 	}
 }
 #main-nav{
-	margin-bottom: 0px;
-	float: center;
-	text-align:center;
-	margin-top: 15px;
+	display: inline-block;
 	@media screen and (max-width: 1040px){
 		float: none;
 		margin-left: 0;
 		margin-top: 15px;
 	}
 	>ul{
-		@media screen and (max-width: 600px){
-			display: none;
-		}
 		>li{
 			margin-left: 50px;
-			@include inline-block;
+			vertical-align: bottom;
+			display: inline;
 			@media screen and (max-width: 1040px){
 				margin-left: 0;
 				margin-right: 50px;
@@ -158,125 +149,11 @@ $header-height: 30px;
 		}
 	}
 }
-#mobile-nav{
-	display: none;
-	height: 37px;
-	position: relative;
-	@media screen and (max-width: 600px){
-		display: block;
-	}
-	a{
-		display: block;
-	}
-	.button{
-		cursor: pointer;
-	}
-	.container{
-		display: none;
-	}
-	.menu{
-		position: relative;
-		width: 100%;
-		.button{
-			background: #f2f2f2;
-			border: 1px solid $color-gray04;
-			color: #999;
-			padding: 0 60px 0 10px;
-			position: relative;
-			@include border-radius(5px);
-			&:hover{
-				color: #999;
-			}
-			&.on{
-				color: #666;
-				@include border-radius(5px 5px 5px 0);
-				&:before{
-					content: "\f077";
-				}
-			}
-			&:before{
-				content: "\f078";
-				color: $color-gray04;
-				font: 16px $font-icon;
-				line-height: 30px;
-				position: absolute;
-				top: 0;
-				right: 40px;
-			}
-		}
-		.container{
-			background: #f2f2f2;
-			border: 1px solid #ddd;
-			border-top: none;
-			position: absolute;
-			top: 31px;
-			z-index: 1;
-			@include border-radius(0 0 5px 5px);
-			ul{
-				list-style: none;
-				ul{
-					margin-left: 20px;
-				}
-			}
-			a{
-				padding: 0 10px;
-			}
-		}
-	}
-	.search{
-		position: absolute;
-		top: 0;
-		right: 0;
-		.button{
-			background: $color-gray04;
-			width: 30px;
-			height: 30px;
-			position: absolute;
-			top: 1px;
-			right: -1px;
-			@include border-radius(0 5px 5px 0);
-			&:before{
-				content: "\f002";
-				color: #f2f2f2;
-				font: 20px $font-icon;
-				line-height: 30px;
-				position: absolute;
-				top: 0;
-				left: 7px;
-			}
-			&.on{
-				background: $color-gray03;
-				&:before{
-					content: "\f00d";
-				}
-			}
-		}
-		.container{
-			position: absolute;
-			right: 51px;
-			z-index: 1;
-		}
-		input[type="text"]{
-			background: #fff;
-			border: 1px solid $color-gray04;
-			border-right: none;
-			color: $color-gray02;
-			font: 13px $font-default;
-			height: 30px;
-			width: 100%;
-			padding: 0 10px;
-			@include border-radius(5px 0 0 5px);
-		}
-	}
-}
 #sub-nav{
 	@media screen and (max-width: 1040px){
 		position: absolute;
 		top: 30px;
 		right: 0;
-	}
-	@media screen and (max-width: 600px){
-		display: none;
 	}
 	.search{
 		float: left;
