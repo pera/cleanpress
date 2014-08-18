@@ -4,7 +4,7 @@ This is a fork of [CleanPress](https://github.com/macjasp/cleanpress) (a fork of
 Install
 -------
     $ cd octopress
-    $ git clone git://github.com/pera/cleanpress.git .themes/cleanpress
+    $ git clone git://github.com/pera/cleanerpress.git .themes/cleanerpress
     $ rake install['cleanpress']
     $ rake generate
 
