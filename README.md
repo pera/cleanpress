@@ -1,5 +1,6 @@
-This is a fork of [CleanPress](https://github.com/macjasp/cleanpress) (a fork of [Slash](https://github.com/tommy351/Octopress-Theme-Slash)); cleaner, without scripts, without remote content.
+This is a fork of [CleanPress](https://github.com/macjasp/cleanpress) (a fork of [Slash](https://github.com/tommy351/Octopress-Theme-Slash)); cleaner, without scripts, without remote content, without solarized.
 
+![screenshot](screenshot.png)
 
 Install
 -------
