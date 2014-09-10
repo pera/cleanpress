@@ -34,6 +34,7 @@ figure.code{
 	background: $pre-bg;
 	border: 1px solid $pre-border;
 	margin-top: 10px;
+	margin-bottom: 1.5em;
 	padding: 5px 15px;
 	@include border-radius(4px);
 	figcaption{
@@ -89,6 +90,7 @@ figure.code{
 	color: $color-gray01;
 	padding: 30px 15px 5px;
 	margin-top: 10px;
+	margin-bottom: 1.5em;
 	border: 1px solid $pre-border;
 	position: relative;
 	overflow: hidden;
