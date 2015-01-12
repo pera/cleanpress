@@ -6,7 +6,7 @@ Install
 -------
     $ cd octopress
     $ git clone https://github.com/pera/cleanerpress.git .themes/cleanerpress
-    $ rake install['cleanpress']
+    $ rake install['cleanerpress']
     $ rake generate
 
 
